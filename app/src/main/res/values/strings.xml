@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Let\'s Rock!</string>
+    <string name="classic">Classic\nRock</string>
+    <string name="nineties">90\'s\nAlternative</string>
+    <string name="todaysAlt">Today\'s\nAlternative</string>
+
+</resources>

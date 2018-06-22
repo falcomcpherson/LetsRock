@@ -24,7 +24,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".classic"
             android:label="@string/classic"
@@ -33,7 +32,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-
         <activity
             android:name=".todays"
             android:label="@string/todaysAlt"
@@ -41,6 +39,13 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".nowPlayingInterface"
+        android:label="@string/playing"
+        android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
         </activity>
     </application>
 

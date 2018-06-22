@@ -3,5 +3,6 @@
     <string name="classic">Classic\nRock</string>
     <string name="nineties">90\'s\nAlternative</string>
     <string name="todaysAlt">Today\'s\nAlternative</string>
+    <string name="playing">Now Playing</string>
 
 </resources>

@@ -2,9 +2,12 @@ package com.example.android.letsrock;
 
 
 import android.app.Activity;
+import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
@@ -28,6 +31,7 @@ public class SongAdapter extends ArrayAdapter<Song>{
 
         TextView songTextView = (TextView) listItemView.findViewById(R.id.song_text_view);
         songTextView.setText(currentSong.getSongName());
+
 
         TextView artistTextView = (TextView) listItemView.findViewById(R.id.artist_text_view);
         artistTextView.setText(currentSong.getArtist());

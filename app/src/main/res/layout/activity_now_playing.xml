@@ -1,35 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    style="@style/mainAndNowPlayingView"
     tools:context=".nowPlayingInterface">
+
+
+    <TextView
+        android:id="@+id/songNameLabel"
+        style="@style/nowPlayingSongLabel"
+        android:layout_width="wrap_content"
+        android:text="Playing Song:"
+        android:layout_above="@+id/nowPlayingSong"/>
 
     <TextView
         android:id="@+id/nowPlayingSong"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Test"
         style="@style/nowPlayingSongInfo"
-        android:layout_weight="3" />
+        android:layout_width="wrap_content"
+        android:text="Song Name"
+        android:layout_above="@+id/songImage"/>
 
     <ImageView
+        android:id="@+id/songImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="5"
         android:adjustViewBounds="true"
         android:cropToPadding="true"
-        android:src="@drawable/nowplayingscreen" />
+        android:layout_centerInParent="true"
+        android:src="@drawable/nowplayingscreen"/>
+
+    <TextView
+        android:id="@+id/artistLabel"
+        style="@style/nowPlayingSongLabel"
+        android:layout_below="@+id/songImage"
+        android:text="Artist:"/>
 
     <TextView
         android:id="@+id/nowPlayingArtist"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Testing"
-        style="@style/nowPlayingArtistInfo"
-        android:layout_weight="3" />
+        style="@style/nowPlayingSongInfo"
+        android:layout_below="@+id/artistLabel"
+        android:text="Artist Name"/>
 
-</LinearLayout>
+</RelativeLayout>

@@ -8,23 +8,12 @@
 
     <TextView
         android:id="@+id/song_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="16dp"
-        android:paddingLeft="16dp"
-        android:paddingBottom="4dp"
         style="@style/listedSongs"
-        tools:text="Song Test"
-        />
+        tools:text="Song Test"/>
 
     <TextView
         android:id="@+id/artist_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="16dp"
-        android:paddingBottom="16dp"
         style="@style/listedArtists"
-        tools:text="Artist Test"
-        />
+        tools:text="Artist Test"/>
 
 </LinearLayout>

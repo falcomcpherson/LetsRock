@@ -4,5 +4,6 @@
     <string name="nineties">90\'s\nAlternative</string>
     <string name="todaysAlt">Today\'s\nAlternative</string>
     <string name="playing">Now Playing</string>
+    <string name="pickGenre">Pick your poison...</string>
 
 </resources>

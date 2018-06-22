@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@android:color/black"
-    android:gravity="center_vertical"
-    android:orientation="vertical"
+    style="@style/mainAndNowPlayingView"
     tools:context="com.example.android.letsrock.MainActivity">
+
+    <TextView
+        android:id="@+id/letsRock"
+        style="@style/rockGenreTitle"
+
+        android:text="@string/pickGenre" />
 
     <TextView
         android:id="@+id/classic"

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".nowPlayingInterface">
+
+    <TextView
+        android:id="@+id/nowPlayingSong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test"
+        style="@style/nowPlayingSongInfo"
+        android:layout_weight="3" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:src="@drawable/nowplayingscreen" />
+
+    <TextView
+        android:id="@+id/nowPlayingArtist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testing"
+        style="@style/nowPlayingArtistInfo"
+        android:layout_weight="3" />
+
+</LinearLayout>
